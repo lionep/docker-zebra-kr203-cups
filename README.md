@@ -23,3 +23,9 @@ Override PPD file with :
       - ./file.ppd:/root/DNP.ppd
 
 ```
+
+Print with lpr
+
+```
+lpr -H 127.0.0.1:631 -P Zebra /file_to_print.png
+```
