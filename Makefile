@@ -1,6 +1,5 @@
-
 DOCKER_IMAGE := lionep/zebra-kr203-cups
-IMAGE_VERSION := 1.0.0
+IMAGE_VERSION := 1.1.0
 BASE_IMAGE := ubuntu:18.04
 
 all: build
