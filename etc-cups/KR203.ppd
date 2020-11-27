@@ -31,8 +31,7 @@
 
 *OpenUI *PageSize/Media Size: PickOne
 *OrderDependency: 10 AnySetup *PageSize
-*DefaultPageSize: p800x80
-*PageSize p800x80/80mm x 80mm:	"<</PageSize[226 226]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*DefaultPageSize: p800x400
 *PageSize p800x150/80mm x 150mm:	"<</PageSize[226 425]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
 *PageSize p800x250/80mm x 250mm:	"<</PageSize[226 709]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
 *PageSize p800x400/80mm x 400mm:	"<</PageSize[226 1134]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
@@ -52,9 +51,8 @@
 
 *OpenUI *PageRegion/Page Region: PickOne
 *OrderDependency: 10 AnySetup *PageRegion
-*DefaultPageRegion: p800x80
+*DefaultPageRegion: p800x400
 
-*PageRegion p800x80/80mm x 80mm:	"<</PageSize[226 226]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
 *PageRegion p800x150/80mm x 150mm:	"<</PageSize[226 425]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
 *PageRegion p800x250/80mm x 250mm:	"<</PageSize[226 709]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
 *PageRegion p800x400/80mm x 400mm:	"<</PageSize[226 1134]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
@@ -79,7 +77,6 @@
 *ImageableArea p800x400:	"11.0 0.0 215.0 1134.0"
 *ImageableArea p800x250:	"11.0 0.0 215.0 709.0"
 *ImageableArea p800x150:	"11.0 0.0 215.0 425.0"
-*ImageableArea p800x80:	"11.0 0.0 215.0 226.0"
 
 *ImageableArea p600x400:	"11.0 0.0 159.0 1134.0"
 *ImageableArea p580x400:	"11.0 0.0 153.0 1134.0"
@@ -96,7 +93,6 @@
 *PaperDimension p800x400:	"226 1134"
 *PaperDimension p800x250:	"226 709"
 *PaperDimension p800x150:	"226 425"
-*PaperDimension p800x80:	"226 226"
 *PaperDimension p600x400:	"169 1134"
 *PaperDimension p580x400:	"164 1134"
 *PaperDimension p600x150:	"169 425"
